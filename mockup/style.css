@@ -57,6 +57,7 @@ section { padding: 56px 0; }
 .frame { background: var(--yellow); border-radius: 24px; padding: 18px; }
 .frame img { border-radius: 14px; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .photo { border-radius: 16px; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.shot { border-radius: 12px; width: 100%; border: 1px solid var(--line); }
 .steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; counter-reset: step; }
 .steps li { counter-increment: step; }
 .steps li::before { content: counter(step); display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; font-size: 1.25rem; font-weight: 800; margin-bottom: 10px; background: var(--yellow); color: var(--navy); }
