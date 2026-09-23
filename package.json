@@ -1,0 +1,23 @@
+{
+  "name": "community_club_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NormanMoon/community-club.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NormanMoon/community-club/issues"
+  },
+  "homepage": "https://github.com/NormanMoon/community-club#readme",
+  "dependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}
